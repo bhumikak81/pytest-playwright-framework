@@ -5,9 +5,9 @@ It demonstrates end-to-end (E2E) UI testing capabilities with a modular and scal
 
 ## Features
 
-Playwright for fast and reliable browser automation
-Pytest for test execution and reporting
-Fixtures for reusable setup/teardown logic
+1. Playwright for fast and reliable browser automation
+2. Pytest for test execution and reporting
+2. Fixtures for reusable setup/teardown logic
 Configurable Base URL (pytest.ini or CLI options)
 HTML Test Reports for execution results
 Page Object Model (POM) structure for scalability
