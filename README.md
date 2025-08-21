@@ -7,32 +7,16 @@ It demonstrates end-to-end (E2E) UI testing capabilities with a modular and scal
 
 1. Playwright for fast and reliable browser automation
 2. Pytest for test execution and reporting
-2. Fixtures for reusable setup/teardown logic
-Configurable Base URL (pytest.ini or CLI options)
-HTML Test Reports for execution results
-Page Object Model (POM) structure for scalability
-Support for headed/headless mode execution
-Debugging support with page.pause() and --headed
+3. Fixtures for reusable setup/teardown logic
+4. Configurable Base URL (pytest.ini or CLI options)
+5.HTML Test Reports for execution results
+6. Page Object Model (POM) structure for scalability
+7. Support for headed/headless mode execution
+8. Debugging support with page.pause() and --headed
 
 ## Tech Stack
-Language: Python 3.12
-Frameworks: Pytest, Playwright
-Reporting: pytest-html, pytest-metadata
-IDE: Visual Studio Code
+1. Language: Python 3.12
+2. Frameworks: Pytest, Playwright
+3. Reporting: pytest-html, pytest-metadata
+4. IDE: Visual Studio Code
 
-## Project Structure
-pytest_playwright_vscode/
-│── tests/
-│   └── test_login.py         # Sample login test
-│
-│── pages/                    # Page Object Model (POM)
-│   └── login_page.py
-│
-│── config/
-│   └── config.yaml           # Test data & environment configs
-│
-│── reports/                  # Test reports (HTML, screenshots)
-│
-│── pytest.ini                # Pytest configuration
-│── requirements.txt          # Dependencies
-│── README.md                 # Project documentation
